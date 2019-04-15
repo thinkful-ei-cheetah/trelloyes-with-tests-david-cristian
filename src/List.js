@@ -6,11 +6,11 @@ import './styles/List.css';
 export default function List(props) {
   console.log(props);
   const cards = props.cards.map(
-    (card) =>
+    (card, i) =>
       <Card
         title={card.title}
         content={card.content}
-        key={card.title}
+        key={i}
       />
   )
 
