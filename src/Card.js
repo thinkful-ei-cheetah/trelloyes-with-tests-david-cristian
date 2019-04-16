@@ -9,7 +9,7 @@ export default function Card(props) {
 
       <button type='button'>
         Delete
-    </button>
+      </button>
     </div>
   )
 }
